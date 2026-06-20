@@ -7,3 +7,10 @@ out
 *.tsbuildinfo
 *.log
 next-env.d.ts
+
+# Python backend
+backend/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+backend/.env

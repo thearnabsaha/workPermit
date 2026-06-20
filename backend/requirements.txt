@@ -1,0 +1,23 @@
+# Work Permit Intelligence Agent - Python backend
+# All free/open-source. The only paid dependency is the Gemini API.
+
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30,<1.0
+python-multipart>=0.0.9
+pydantic>=2.7,<3.0
+python-dotenv>=1.0
+
+# AI orchestration (Gemini only)
+langchain>=0.3,<2.0
+langgraph>=0.2,<1.0
+langchain-google-genai>=2.0,<3.0
+
+# OCR / document parsing (no system binaries required)
+pypdf>=4.2
+pdfplumber>=0.11
+Pillow>=10.3
+
+# Dev / tests / sample generation
+pytest>=8.2
+httpx>=0.27
+fpdf2>=2.7

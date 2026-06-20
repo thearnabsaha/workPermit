@@ -2,10 +2,10 @@
 
 Synthetic documents for testing and demos. **No real personal data.**
 
-Generate the PDFs:
+Generate the PDFs (from the `backend/` folder, with its venv active):
 
 ```bash
-npm run samples
+python scripts/generate_samples.py
 ```
 
 This writes to `sample_data/permits/`:

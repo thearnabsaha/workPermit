@@ -1,9 +1,0 @@
-node_modules
-.next
-.git
-.env*.local
-*.log
-npm-debug.log*
-out
-*.tsbuildinfo
-.DS_Store
