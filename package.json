@@ -1,0 +1,46 @@
+{
+  "name": "reusable-web-ui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "samples": "node sample_data/generate-samples.mjs"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.2.0",
+    "@langchain/google-genai": "^2.2.0",
+    "@langchain/langgraph": "^1.4.4",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.3.8",
+    "jszip": "^3.10.1",
+    "langchain": "^1.5.0",
+    "lucide-react": "^0.408.0",
+    "next": "^14.2.33",
+    "pdfjs-dist": "^4.10.38",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^9.0.1",
+    "remark-gfm": "^4.0.0",
+    "sharp": "^0.35.2",
+    "tailwind-merge": "^2.4.0",
+    "tesseract.js": "^7.0.0",
+    "unpdf": "^1.6.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "pdf-lib": "^1.17.1",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.6",
+    "typescript": "^5.5.3",
+    "vitest": "^3.2.4"
+  }
+}
